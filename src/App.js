@@ -12,6 +12,7 @@ function App() {
         <Routes>
           <Route path="/hash" element={<Ripemd />} />
           <Route path="/encrypt" element={<Encrypt />} />
+          <Route path="*" element={<Encrypt />} />
         </Routes>
       </BrowserRouter>
     </div>
